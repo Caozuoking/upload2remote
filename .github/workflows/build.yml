@@ -15,13 +15,6 @@ jobs:
       matrix:
         target:
           - linux-amd64
-          - linux-386
-          - darwin-amd64
-          - windows-amd64
-          - linux-arm
-          - linux-arm64
-          - linux-ppc64le
-          - linux-s390x
     steps:
     - uses: actions/checkout@v2
 
